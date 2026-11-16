@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>To You, My Queen</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600&family=Great+Vibes&family=Cinzel:wght@400;600;700&family=EB+Garamond:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- FLOATING HEARTS LAYER (global) -->
+  <div id="floatingHearts" class="floating-hearts-layer" aria-hidden="true"></div>
+
+  <!-- ═══════ SECTION 1 — INTRO ═══════ -->
+  <section id="intro" class="intro-section">
+    <canvas id="petalCanvas"></canvas>
+    <div class="dress-overlay"></div>
+
+    <div class="intro-content">
+      <div class="royal-seal">
+        <div class="seal-ring outer"></div>
+        <div class="seal-ring inner"></div>
+        <span class="seal-icon">♛</span>
+      </div>
+
+      <p class="pre-title">In the Name of All That Is Sacred Between Us</p>
+      <h1 class="main-title">
+        <span class="line-one">To You, My Queen</span>
+        <span class="line-two">❀ My Everything ❀</span>
+      </h1>
+      <p class="royal-opening">
+        A Royal Epistle, penned with the solemnity of a man who stands before
+        the grandeur of your presence, fully aware he is not entirely worthy
+        of the audience, yet bold enough to request it anyway.
+      </p>
+
+      <div class="hero-portrait-frame">
+        <div class="portrait-glow"></div>
+        <img src="media/M6.jpeg" alt="My Queen" class="hero-portrait" />
+        <div class="portrait-caption">
+          <span class="caption-flower">❀</span>
+          <em>You who carry entire sunsets in your smile</em>
+          <span class="caption-flower">❀</span>
+        </div>
+      </div>
+
+      <div class="scroll-cta">
+        <span>Unroll the Scroll, Your Majesty</span>
+        <div class="scroll-arrow">↓</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════ SECTION 2 — SALUTATION ═══════ -->
+  <section id="salutation" class="parchment-section">
+    <div class="parchment-container reveal">
+      <div class="parchment-corner tl"></div>
+      <div class="parchment-corner tr"></div>
+      <div class="parchment-corner bl"></div>
+      <div class="parchment-corner br"></div>
+
+      <p class="chapter-label">Chapter I</p>
+      <h2 class="chapter-title">The Salutation</h2>
+      <div class="divider-ornament">❧ ✦ ❧</div>
+
+      <div class="letter-body">
+        <p class="drop-cap-para">
+          <span class="drop-cap">Y</span>our Majesty, I write to you today as Paul
+          wrote unto the Galatians, with the hope and faith that these words shall
+          make their effect as intended, reaching past every wall you have raised
+          and every silence you have donned as armour, arriving softly at that
+          place within you where you are not a warrior but simply yourself.
+        </p>
+        <p>
+          I write not from the chambers of perfection, for I am no perfect man.
+          I write from the chambers of sincerity, where I keep only one name
+          upon the throne. That name, without contest, without rival and
+          without reservation, is yours.
+        </p>
+        <p class="italic-line">
+          "Hope this brings back the comfort you almost felt was lost."
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════ SECTION 3 — WHO YOU ARE ═══════ -->
+  <section id="who-she-is" class="gallery-section">
+    <div class="section-header reveal">
+      <p class="chapter-label dark-label">Chapter II</p>
+      <h2 class="chapter-title dark-title">What the World Sees in You</h2>
+      <div class="divider-ornament dark-ornament">❧ ✦ ❧</div>
+    </div>
+
+    <div class="gallery-grid">
+      <div class="gallery-card reveal delay-1">
+        <div class="gallery-img-wrap">
+          <img src="media/M2.jpeg" alt="Her Grace" />
+          <div class="img-overlay">
+            <span>❀ Your Light ❀</span>
+          </div>
+        </div>
+        <div class="gallery-text">
+          <p>
+            It is recorded in the courts of this heart and proclaimed before all
+            that matters: you are genuinely, unashamedly, quietly good. Not the
+            performative goodness of one who seeks applause, but the kind that
+            shows up at midnight when no one is watching, the kind that prays
+            even when you are upset, the kind that gives even when you are
+            running low.
+          </p>
+        </div>
+      </div>
+
+      <div class="traits-wrap reveal delay-2">
+        <div class="trait-card">
+          <span class="trait-icon">👑</span>
+          <h3>Kind</h3>
+          <p>Your kindness is not weakness. It is a chosen discipline of the soul, a deliberate act of grace in a world that rarely deserves it.</p>
+        </div>
+        <div class="trait-card">
+          <span class="trait-icon">❤</span>
+          <h3>Caring and Loving</h3>
+          <p>You love the way the earth loves rain. Quietly, deeply, and without expectation of gratitude.</p>
+        </div>
+        <div class="trait-card">
+          <span class="trait-icon">💪</span>
+          <h3>Hardworking</h3>
+          <p>You do not simply dream. You build. With every early morning and every late night, you construct the life you were called to live.</p>
+        </div>
+        <div class="trait-card">
+          <span class="trait-icon">🌸</span>
+          <h3>Beautiful and Resilient</h3>
+          <p>Resilient as iron, soft as petals. The rarest combination, reserved only for those forged by fire yet still choosing to bloom.</p>
+        </div>
+        <div class="trait-card">
+          <span class="trait-icon">🕊</span>
+          <h3>God Fearing</h3>
+          <p>Your faith is not decoration. It is the very foundation upon which you stand, the quiet force that steadies you even when the earth beneath you shakes.</p>
+        </div>
+        <div class="trait-card">
+          <span class="trait-icon">🍃</span>
+          <h3>Soft Hearted</h3>
+          <p>Your heart folds when love feels threatened. That, Your Majesty, is not a flaw. That is the most human, the most precious thing about you.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════ SECTION 4 — MOOD (Funny) ═══════ -->
+  <section id="funny-truth" class="video-section dark-section">
+    <div class="video-content-wrap">
+      <div class="section-header reveal">
+        <p class="chapter-label">Chapter III</p>
+        <h2 class="chapter-title">Yes, I Know Your Mood<br/><small>(I always do, Babe)</small></h2>
+        <div class="divider-ornament light-ornament">❧ ✦ ❧</div>
+      </div>
+
+      <div class="video-row reveal">
+        <div class="video-frame">
+          <video src="media/M1.mp4" controls muted playsinline loop></video>
+          <div class="video-caption">
+            <span class="caption-label">★ A moment worth remembering ★</span>
+          </div>
+        </div>
+
+        <div class="video-text">
+          <p>
+            Let me be candid with you in the manner that only a man who has
+            memorised the architecture of your silences can afford to be:
+            I know when you are upset with me. I know it the way a sailor knows
+            a storm before it arrives. Not by the thunder, but by the particular
+            stillness of the water.
+          </p>
+          <p>
+            And do you know what I do? I deploy my finest manoeuvres. I summon
+            every ounce of charm available to a man of my limited but very
+            enthusiastic repertoire. Because I have made it my personal mission,
+            my sovereign duty, that you shall not remain in that mood a minute
+            longer than is absolutely necessary.
+          </p>
+          <p>
+            Is it undignified? Perhaps. Do I mind? Not in the slightest.
+            There is no other woman in this entire world to whom I wish to
+            bring this energy. Not one. Zero. Nought.
+            The figure is as round as it is completely final.
+          </p>
+          <p class="funny-aside">
+            And before you consider a rebuttal, the accused has already pleaded
+            guilty and thrown himself upon the mercy of the court.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════ SECTION 5 — TEACHER ═══════ -->
+  <section id="teacher" class="parchment-section teacher-section">
+    <div class="parchment-container wide reveal">
+      <div class="parchment-corner tl"></div>
+      <div class="parchment-corner tr"></div>
+      <div class="parchment-corner bl"></div>
+      <div class="parchment-corner br"></div>
+
+      <p class="chapter-label">Chapter IV</p>
+      <h2 class="chapter-title">You Are a Teacher and I Am Already Jealous</h2>
+      <div class="divider-ornament">❧ ✦ ❧</div>
+
+      <div class="teacher-layout">
+        <div class="teacher-images">
+          <div class="teacher-img-frame reveal delay-1">
+            <img src="media/M3.jpeg" alt="The Teacher" />
+            <p class="img-msg">❀ She who shapes the future ❀</p>
+          </div>
+          <div class="teacher-img-frame reveal delay-2">
+            <img src="media/M7.jpeg" alt="Her Dreams" />
+            <p class="img-msg">❀ Dreams as vast as her grace ❀</p>
+          </div>
+        </div>
+
+        <div class="teacher-text letter-body">
+          <p>
+            You are a Teacher. I do not use that word to describe an occupation.
+            I use it the way one describes a calling, a divine appointment, a thing
+            the universe arranged long before you were even born.
+          </p>
+          <p>
+            I support you. Fully, without condition, without hesitation. Your dreams
+            are not separate from mine. They are woven into the fabric of everything
+            I am building and everything I am working towards.
+          </p>
+          <p>
+            And I confess, with the full dignity of a man who is not entirely ashamed
+            of his feelings, that I am jealous of your students. Truly jealous.
+            The privilege of sitting before you, of receiving instruction, of
+            watching that brilliant mind organise knowledge and deliver it with care.
+            Those students do not yet know how extraordinarily lucky they are.
+            I, however, do. And you can trust that I will make it known.
+          </p>
+          <p>
+            One day you shall teach me too. And I promise you, I shall be the
+            most attentive, the most enthusiastic and quite possibly the most
+            insufferable student you have ever had. Front row. Hand raised for
+            everything. Arguing points just so you have cause to explain them again.
+          </p>
+          <p>
+            One day, when time has softened our story into something we look back
+            upon with warmth and laughter, I hope you remember that someone spared
+            his time to write exactly how he sees you, believes in you and is
+            rooting for you, even when he is imperfect at showing it.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════ SECTION 6 — PRAYER ═══════ -->
+  <section id="prayer" class="video-section dark-section prayer-section">
+    <div class="video-content-wrap">
+      <div class="section-header reveal">
+        <p class="chapter-label">Chapter V</p>
+        <h2 class="chapter-title">On Every Prayer You Prayed for Me</h2>
+        <div class="divider-ornament light-ornament">❧ ✦ ❧</div>
+      </div>
+
+      <div class="video-row reverse reveal">
+        <div class="video-frame">
+          <video src="media/M5.mp4" controls muted playsinline loop></video>
+          <div class="video-caption">
+            <span class="caption-label">★ Moments that anchor the soul ★</span>
+          </div>
+        </div>
+
+        <div class="video-text">
+          <p>
+            I want to thank you, formally, in writing, before whatever heavens
+            and earth may witness this, for every prayer you have lifted on my
+            behalf. The ones you breathed quietly in your room when I was
+            unaware. The ones you offered when we were not on speaking terms and
+            you still, somehow, found it in your heart to intercede for me.
+          </p>
+          <p>
+            I may not have noticed in the moment. I may have been too tangled in
+            my own thoughts, my own pride, my own stubborn silences. But I
+            believe with everything in me that those prayers were heard. That they
+            played a role in guiding my life when I could not guide it myself.
+            Your faith reached places my own courage could not.
+          </p>
+          <p>
+            For that, Your Majesty, I am more grateful than any arrangement of
+            words I currently possess is capable of expressing.
+            From the deepest, most honest room within me, thank you.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════ SECTION 7 — PLACES ═══════ -->
+  <section id="places" class="parchment-section">
+    <div class="parchment-container reveal">
+      <div class="parchment-corner tl"></div>
+      <div class="parchment-corner tr"></div>
+      <div class="parchment-corner bl"></div>
+      <div class="parchment-corner br"></div>
+
+      <p class="chapter-label">Chapter VI</p>
+      <h2 class="chapter-title">The Places I Shall Take You</h2>
+      <div class="divider-ornament">❧ ✦ ❧</div>
+
+      <div class="places-layout">
+        <div class="places-img reveal delay-1">
+          <img src="media/M8.jpeg" alt="Places to Go" />
+          <p class="img-msg">❀ Every horizon, yours to claim ❀</p>
+        </div>
+
+        <div class="letter-body reveal delay-2">
+          <p>
+            If time permitted and the treasury of this life allowed it at this
+            very hour, you would already know that I would take you, without
+            deliberation, without delay, to places your heart finds peaceful.
+            Places where the noise of the world retreats and you are left with
+            nothing but warmth, beauty and the knowledge that you are safe.
+          </p>
+          <p>
+            I look forward to that time. I am building towards it. This is not
+            a careless promise spoken in the intoxication of a good moment.
+            It is a declaration made with both eyes open and both feet on the ground.
+          </p>
+          <p>
+            One day we shall go, and you shall not need to plan or worry or
+            manage a single thing. You shall simply arrive, elegant as you always
+            are, and allow your man to take care of the rest.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════ SECTION 8 — PLEA (Ch VII) ═══════ -->
+  <section id="plea" class="plea-section">
+    <div class="sparkle-layer" id="sparkleFg" aria-hidden="true"></div>
+    <div class="plea-content">
+      <div class="section-header reveal">
+        <p class="chapter-label">Chapter VII</p>
+        <h2 class="chapter-title light-title">The Humble Petition Before Your Throne</h2>
+        <div class="divider-ornament light-ornament">❧ ✦ ❧</div>
+      </div>
+
+      <!-- Animated banner -->
+      <div class="mercenary-ticker reveal">
+        <div class="ticker-track">
+          <span>⚔ You Who Pretend to Be a Mercenary ⚔</span>
+          <span>⚔ We Both Know the Truth, Babe ⚔</span>
+          <span>⚔ You Who Pretend to Be a Mercenary ⚔</span>
+          <span>⚔ We Both Know the Truth, Babe ⚔</span>
+        </div>
+      </div>
+
+      <div class="plea-cards-row">
+        <!-- Card 1 -->
+        <div class="plea-bubble reveal delay-1">
+          <div class="bubble-icon">🏛</div>
+          <p>
+            Your Majesty, I hereby petition the court, that is to say your heart,
+            for a hearing. I do not arrive bearing excuses. I arrive bearing
+            honesty, which I am told is a far more valuable currency in these
+            chambers.
+          </p>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="plea-bubble reveal delay-2">
+          <div class="bubble-icon">⚖</div>
+          <p>
+            It is fully within your jurisdiction to punish me as you see fit.
+            I concede this entirely. I place myself beneath your authority and
+            submit willingly to whatever discipline you consider appropriate.
+            Caning included. I shall receive it with dignity.
+          </p>
+          <p class="bubble-aside">
+            I have however noted that you are far too kind, too good and far too
+            God fearing to go through with any of the more creative punishments.
+            This is my quiet comfort as I stand here. Do not tell anyone I said so.
+          </p>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="plea-bubble reveal delay-3">
+          <div class="bubble-icon">🌹</div>
+          <p>
+            Yes, I can be too jealous sometimes. Too strict, too serious. I wear
+            my gravity like a coat I forgot I had on. But I am already, and I say
+            this with quiet pride, becoming a better man within the radius of your
+            influence. I am proud of that man. He is not yet finished but he is
+            well underway.
+          </p>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="plea-bubble highlight-bubble reveal delay-1">
+          <div class="bubble-icon">💌</div>
+          <p>
+            My one plea is this: do not be silent when conversations are needed.
+            Silence is too easily mistaken for surrender. And you are not
+            surrendering. I know that because underneath that magnificent mercenary
+            exterior, underneath the armour you wear with such practised ease,
+            there is a woman who feels deeply, loves fiercely and deserves to be
+            held with both arms and absolutely no reservations.
+          </p>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="plea-bubble reveal delay-2">
+          <div class="bubble-icon">👑</div>
+          <p>
+            Let your man take over now. You have held the fort long enough.
+            It is not weakness to allow someone to care for you. It is wisdom.
+            And wisdom, as we both know, is very much within your jurisdiction.
+          </p>
+        </div>
+
+        <!-- Card 6 -->
+        <div class="plea-bubble highlight-bubble reveal delay-3">
+          <div class="bubble-icon">🔒</div>
+          <p>
+            You are not losing me. I am not leaving. We keep each other.
+            That is the arrangement, and I find it perfectly agreeable.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════ SECTION 9 — MISSING (Ch VIII) — bright romantic colours ═══════ -->
+  <section id="missing" class="missing-section">
+    <div class="missing-bg-blobs" aria-hidden="true">
+      <div class="blob b1"></div>
+      <div class="blob b2"></div>
+      <div class="blob b3"></div>
+    </div>
+
+    <div class="section-header reveal">
+      <p class="chapter-label miss-label">Chapter VIII</p>
+      <h2 class="chapter-title miss-title">What I Miss About You</h2>
+      <p class="miss-sub">Every single piece of it, if you must know.</p>
+      <div class="divider-ornament miss-ornament">❧ ✦ ❧</div>
+    </div>
+
+    <div class="missing-grid">
+      <div class="miss-item reveal delay-1">
+        <span class="miss-icon">📸</span>
+        <h4 class="miss-item-title">Our Pictures</h4>
+        <p>Every one of them is a small museum of us that I revisit more than I will ever openly admit to you.</p>
+      </div>
+      <div class="miss-item reveal delay-2">
+        <span class="miss-icon">😂</span>
+        <h4 class="miss-item-title">Your Laugh</h4>
+        <p>The kind that happens without warning and leaves us both completely undignified and entirely at peace.</p>
+      </div>
+      <div class="miss-item reveal delay-3">
+        <span class="miss-icon">🌙</span>
+        <h4 class="miss-item-title">The Nights</h4>
+        <p>I shall not elaborate further, as this is a document of royal standing. But you know exactly what I mean.</p>
+      </div>
+      <div class="miss-item reveal delay-1">
+        <span class="miss-icon">🍽</span>
+        <h4 class="miss-item-title">Our Meals</h4>
+        <p>Even the ones we argued about while eating. Perhaps especially those. Those were my favourite ones.</p>
+      </div>
+      <div class="miss-item reveal delay-2">
+        <span class="miss-icon">🙏</span>
+        <h4 class="miss-item-title">Our Prayers</h4>
+        <p>The fasting, the moments where we set aside everything and placed our trust in something far greater than us.</p>
+      </div>
+      <div class="miss-item reveal delay-3">
+        <span class="miss-icon">💬</span>
+        <h4 class="miss-item-title">Even Our Arguments</h4>
+        <p>I find, to my own bewilderment, that even those have become dear to me. Within them I discovered exactly how deeply I love you.</p>
+      </div>
+    </div>
+
+    <div class="miss-footer-note reveal">
+      <p>
+        It is entirely acceptable to be angry and to feel tired. I feel that too.
+        But I have searched myself thoroughly and honestly, and I am not ready to
+        leave over anything that is fixable. And this is fixable. We are not even
+        broken. We are simply resting between battles.
+      </p>
+    </div>
+  </section>
+
+  <!-- ═══════ SECTION 10 — QUESTIONS (Ch IX) ═══════ -->
+  <section id="questions" class="questions-section">
+    <div class="section-header reveal">
+      <p class="chapter-label dark-label">Chapter IX</p>
+      <h2 class="chapter-title dark-title">Questions for Your Heart</h2>
+      <p class="chapter-sub">Answer them honestly. Even just to yourself.</p>
+      <div class="divider-ornament dark-ornament">❧ ✦ ❧</div>
+    </div>
+
+    <div class="questions-grid">
+      <div class="q-card reveal delay-1" onclick="flipCard(this)">
+        <div class="q-front">
+          <span class="q-num">I</span>
+          <p>How are you feeling right now, in this very moment, as these words reach you?</p>
+          <span class="q-tap">tap to reflect ♡</span>
+        </div>
+        <div class="q-back">
+          <p>Whatever the answer is, good, unsettled, confused or somewhere in between, it matters. It is valid. And I genuinely want to know.</p>
+        </div>
+      </div>
+
+      <div class="q-card reveal delay-2" onclick="flipCard(this)">
+        <div class="q-front">
+          <span class="q-num">II</span>
+          <p>What are you missing about us that you would not easily say out loud?</p>
+          <span class="q-tap">tap to reflect ♡</span>
+        </div>
+        <div class="q-back">
+          <p>Perhaps it is a small thing. Perhaps it is enormous. Either way, it deserves to be spoken. I am always listening, even when I appear otherwise.</p>
+        </div>
+      </div>
+
+      <div class="q-card reveal delay-3" onclick="flipCard(this)">
+        <div class="q-front">
+          <span class="q-num">III</span>
+          <p>What do you wish I understood better about you and about your heart?</p>
+          <span class="q-tap">tap to reflect ♡</span>
+        </div>
+        <div class="q-back">
+          <p>I want to understand. Not to defend myself. Just to understand. Tell me and I shall listen the way a student sits before a teacher: attentively, humbly and without interruption.</p>
+        </div>
+      </div>
+
+      <div class="q-card reveal delay-1" onclick="flipCard(this)">
+        <div class="q-front">
+          <span class="q-num">IV</span>
+          <p>What mood do you find yourself in when you think of me? Be honest.</p>
+          <span class="q-tap">tap to reflect ♡</span>
+        </div>
+        <div class="q-back">
+          <p>Warmth? Frustration? A complicated mixture of both you cannot quite name? All are acceptable. I want the truth, even the uncomfortable kind.</p>
+        </div>
+      </div>
+
+      <div class="q-card reveal delay-2" onclick="flipCard(this)">
+        <div class="q-front">
+          <span class="q-num">V</span>
+          <p>If you could ask me for just one thing right now, what would it be?</p>
+          <span class="q-tap">tap to reflect ♡</span>
+        </div>
+        <div class="q-back">
+          <p>Name it. I am ready. I may not achieve it perfectly on the first attempt but I am committed to the direction, and that counts for a great deal.</p>
+        </div>
+      </div>
+
+      <div class="q-card reveal delay-3" onclick="flipCard(this)">
+        <div class="q-front">
+          <span class="q-num">VI</span>
+          <p>Beneath the armour, beneath the silence, do you still feel this is worth it?</p>
+          <span class="q-tap">tap to reflect ♡</span>
+        </div>
+        <div class="q-back">
+          <p>I believe you do. That is precisely why the silence costs you something. Things that do not matter are easy to discard. And you have not discarded this. Neither have I.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════ SECTION 11 — PRAYER CLOSING (Ch X) ═══════ -->
+  <section id="closing-prayer" class="parchment-section">
+    <div class="parchment-container narrow reveal">
+      <div class="parchment-corner tl"></div>
+      <div class="parchment-corner tr"></div>
+      <div class="parchment-corner bl"></div>
+      <div class="parchment-corner br"></div>
+
+      <p class="chapter-label">Chapter X</p>
+      <h2 class="chapter-title">The Prayer and the Promise</h2>
+      <div class="divider-ornament">❧ ✦ ❧</div>
+
+      <div class="letter-body" style="text-align:center;">
+        <p>
+          I pray to the Almighty, the same God you serve, the same God in whose
+          presence you bow, that He grant us both enough wisdom to grow, enough
+          understanding to hear each other beyond the words, and enough patience
+          to wait for the version of each other we are still becoming.
+        </p>
+        <p>
+          I am not finished growing. Neither are you. And I find great comfort
+          in knowing we are both unfinished in the same direction: upward,
+          forward, deeper and together.
+        </p>
+        <p class="italic-line">
+          "You deserve to be cared for, held tight and given the peace that your
+          own heart so freely offers to others."
+        </p>
+        <p>
+          And so it is written, sealed with sincerity and delivered with love,
+          from a man who knows his flaws, is working on his failures and would
+          choose you in every version of every argument and every necessary storm
+          without hesitation.
+        </p>
+
+        <div class="signature-block">
+          <div class="sig-ornament">♛</div>
+          <p class="sig-name">Your Man,</p>
+          <p class="sig-name italic-line">Always and Entirely</p>
+          <div class="sig-seal">
+            <div class="seal-ring outer small"></div>
+            <div class="seal-ring inner small"></div>
+            <span class="seal-icon small">✦</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════ SECTION 12 — FINALE ═══════ -->
+  <section id="finale" class="finale-section">
+    <div class="finale-overlay"></div>
+    <div class="finale-content">
+      <div class="section-header reveal">
+        <p class="chapter-label light-label">Finale</p>
+        <h2 class="chapter-title light-title">And I Leave You With This</h2>
+        <div class="divider-ornament light-ornament">❧ ✦ ❧</div>
+      </div>
+
+      <div class="finale-video reveal">
+        <video src="media/M4.mp4" id="finaleVideo" controls playsinline></video>
+        <div class="finale-caption">
+          <p>❀ For every moment we have shared, and every moment yet to come ❀</p>
+          <p class="finale-sub">Watch this, Your Majesty. It was chosen for you, by someone who thinks of you far more than he says.</p>
+        </div>
+      </div>
+
+      <div class="final-words reveal">
+        <p>"It is never the absence of love that ends things. It is the absence of communication. I am here. I am present. I am not going anywhere."</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="royal-footer">
+    <div class="footer-seal">♛</div>
+    <p>Composed with the full weight of an honest heart &nbsp;|&nbsp; Sealed in sincerity &nbsp;|&nbsp; Delivered with love</p>
+    <p class="footer-date">16th day of November, in the year of our Lord 2026</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
